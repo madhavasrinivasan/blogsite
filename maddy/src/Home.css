@@ -1,0 +1,63 @@
+/* General Styles */
+.post-grid {
+  display: flex;       /* Use flexbox for vertical arrangement */
+  flex-direction: column; /* Arrange items in a column */
+  width: 100%;
+  } 
+
+  
+  
+  .post-card {
+    /* border: 1px solid #ddd; */
+    border-radius: 8px;
+    overflow: hidden; /* Contain image overflow */
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); Subtle shadow */
+    width:100%;
+    margin-top:20px ;
+  }
+  
+  .post-card img {
+    width: 100%;
+    height: 200px; /* Adjust image height as needed */
+    /* object-fit: Crop image to fit */
+  }
+  
+  .post-card h3 {
+    margin: 1rem;
+  }
+  
+  .post-card p {
+    margin: 0 1rem 1rem;
+    color: #666; /* Slightly lighter text color */
+  }
+  
+  .continue-reading-button {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    margin: 0 1rem 1rem;
+    background-color: #007bff; /* Blue background */
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease; /* Smooth transition */
+  }
+  
+  .continue-reading-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  } 
+
+
+  .title{
+    margin-top: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Dancing Script", cursive;  
+  } 
+
+  h2{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-family: "Dancing Script", cursive; 
+
+  }

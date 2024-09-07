@@ -1,0 +1,33 @@
+.navbar {
+    display: flex; /* Use Flexbox for easy layout */
+    justify-content: space-between; /* Space items evenly */
+    align-items: center; /* Vertically center items */
+    padding: 1rem; /* Add some breathing room */
+    background-color: #f8f9fa; /* Light background color */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  }
+  
+  .logo img {
+    /* max-height: 3rem; */
+    border-radius: 20px;
+    height : 50px;
+    width: 50px;/* Adjust logo height as needed */
+  }
+  
+  .links {
+    display: flex;
+    list-style: none; /* Remove default list styling */
+    gap: 4rem;
+     /* Space between links */
+  }
+  
+  .links a {
+    text-decoration: none; /* Remove underlines */
+    color: #333; /* Dark text color */
+    font-weight: 500;
+    transition: color 0.3s ease; /* Smooth color transition on hover */
+  }
+  
+  .links a:hover {
+    color: #007bff; /* Blue color on hover */
+  }
